@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Geral*/
+main {
+  background-color: rgb(224, 224, 224);
+  padding-bottom: 25px;
+}
+h2 {
+  color: rgb(59, 59, 184);
+}
+hr {
+  background-color: rgb(187, 187, 233);
+  height: 3px;
+}
+h3,
+h4 {
+  color: rgb(129, 129, 180);
+}
+h2,
+h3,
+h4,
+li,
+p {
+  padding-top: 15px;
+}
+section {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+/* Especificidades de estilo*/
+.nome-perfil {
+  color: rgb(31, 3, 3);
+}
+img.img-perfil {
+  margin-top: 15px;
+  border-radius: 55%;
+  max-width: 200px;
+  height: 200px;
+}
+li {
+  list-style: none;
+}
+header.perfil {
+  background-color: rgb(2, 101, 214);
+  text-align: center;
+  min-height: 44vh;
+}
+section.resumo {
+  background-color: rgb(230, 228, 228);
+  text-align: center;
+  padding: 0;
+  border-bottom: 2px solid rgb(60, 77, 168);
+}
+section.resumo p {
+  margin: 0 auto;
+  padding: 8px;
+  width: 60%;
+}
+
+a.button {
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#GITHUB {
+  background-color: rgb(155, 1, 1);
+}
+#LINKEDIN {
+  background-color: #0ea849;
+}
